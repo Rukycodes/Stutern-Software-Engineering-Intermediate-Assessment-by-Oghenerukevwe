@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Online Courses - Learn Anything, On Your Schedule | Udemy</title>
+  <style>
+      body {
+  margin: 20px;
+}
+.
+
+ header {
+width: 100%;
+   height: 50px;
+   background-color: #fafafa ;
+   color: #f5f6f7;
+} 
+#logo {
+width: max(100px, 18vw);
+  color: black;
+  aspect-ratio: ;
+  text-align: center;
+}
+h2, .choose, .links, .learners {
+ font-family: Serif;   
+}
+.links {
+    word-spacing: 20px;
+}
+.link a:active {
+  color: #1b1b32;
+}
+a:link {
+  color: grey;
+}
+.coursebox{
+width:500px;
+height:100px;
+border:1px solid #000;"
+}
+.box img {
+    width: 50px;
+    height: 50px;
+    style: inline;
+}
+
+.box1 img {
+    object-fit: cover;
+}
+
+.box2 img {
+    object-fit: cover;
+}
+
+.box3 img {
+    object-fit: cover;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #fafafa;
+}
+
+.flex-container .boxy {
+  background-color: #f1f1f1;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 10px;
+}
+.divider{
+   border: 1px solid black;
+}
+.goalreached {
+    background: #fafafa;
+}
+.jsjs {
+    width: 100px;
+    height: 100px;
+}
+.bestseller {
+    background: yellow;
+    color: #1b1b32;
+ 
+}
+.moretopics {
+    background: transparent;
+    color: #1b1b32;
+    font: serif;
+}
+.teaching, .udemybusiness, .edu {
+    background: #1b1b32;
+    color: white;
+    font: serif;
+    height: 50%;
+    width: 50%;
+    
+}
+.instructorb, .teaching {
+    padding: 0 0 10px 10px;
+}
+.columnb, .columnd {
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    padding: 0 0 10px 10px;
+}
+.footer {
+    background: #1b1b32;
+    color: white;
+    margin-top: 20%;
+    word-spacing: 10px;
+}
+	 	
+
+      
+  </style>
+</head>
+
+<body>
+   
+  <header>
+    <img id="logo" src="file:///storage/emulated/11/Download/logo-udemy%20(2).svg" alt="Udemy Logo">
+      </header>
+</body>
+
+  <div class="courses info1">
+    <div class="left-container">
+    <h2>Learn on-demand professional skills</h2>
+    <div class="choose">Choose from courses in English and other languages</div>
+    <div class="links" class="bold">
+      <a href="courses/python/">Python<a/> 
+   <a href="courses/web-development /">Web Development<a/> 
+   <a href="courses/excel/">Excel<a/>    
+   <a href="courses/awscsaa/">AWS Certified Solutions Architect<a/>    
+     </div>
+     </div> 
+</div> 
+</div>           
+    </div>
+     <div class="goalreached">
+         <h2>How learners like you are achieving their goals</h2>
+        <div class="flex-container">
+  <div class="boxy">I am proud to say that after a few months of taking this course...I passed my exam and am now an AWS Certified Cloud Practitioner! This content was exactly what the CCP exam covered.<br>
+
+WA
+<br>
+Will A
+
+<div class="divider medium">   [NEW] Ultimate AWS Certified Cloud Practitioner - 2022
+</div>
+
+</div>
+  <div class="boxy">This course helped me freshen up on my product manager skills and land a job at Facebook! Thanks guys :)<br>
+
+RF<br>
+
+Ron F
+<div class="divider medium">
+Become a Product Manager | Learn the Skills & Get the Job
+</div>
+
+</div>
+</div>
+     </div>
+     <div><h2>Students are viewing</h2></div>
+     
+     <div class="row">
+  <div class="column">
+     <div class="item">
+    <a href="https://www.someplace.com" > <img border="0" src="file:///storage/emulated/11/Download/1565838_e54e_16.jpg" alt="python course"></a>
+    <p><a href="https://www.someplace.com" >The Complete 2023 Web Development Bootcamp<br>
+Dr Angela Yu<br>
+N6,500 </a><br>
+<a href="https://www.someplace.com"><button class="bestseller">Bestseller</button></a>
+</p>
+  </div>
+
+
+    <a href="https://www.someplace.com" > <img border="0" src="file:///storage/emulated/11/Download/2776760_f176_10.jpg" alt="days of code"></a>
+    <p><a href="https://www.someplace.com" >100 Days of Code: <br>
+The Complete Python Pro...<br>
+Dr Angela Yu<br>
+N5,500 </a><br>
+ <a href="https://www.someplace.com"><button class="bestseller">Bestseller</button></a>
+ </p>
+  </div>
+
+<div></div>
+    <a href="https://www.someplace.com" > <img class="jsjs" src="file:///storage/emulated/11/Download/851712_fc61_6.jpg" alt="javascript course"></a>
+    <p><a href="https://www.someplace.com" >The Complete Javascript <br>Course 2023
+Jonas Schmedtmann<br>
+N7,500 </a><br>
+<a href="https://www.someplace.com"><button class="bestseller">Bestseller</button></a>
+</p>
+  </div>
+<h2>Top categories</h2>
+<div class="container">
+     	 <div class="column"> 	 <img src="file:///storage/emulated/11/Download/lohp-category-design-v2.jpg" alt="Design"> <a href="https://www.someplace.com"><p>Design</p></a>	 </div> 	
+ <div class="column"> 	 <img src="file:///storage/emulated/11/Download/lohp-category-development-v2.jpg" alt="Developmevt"> <a href="https://www.someplace.com"><p>Development</p></a> </div> 
+ 	 <div class="column"> 	 <img src="file:///storage/emulated/11/Download/lohp-category-marketing-v2.jpg" alt="Marketing"> <a href="https://www.someplace.com"><p>Marketing</p></a>	 </div> 
+ 	  <div class="column"> 	 <img src="file:///storage/emulated/11/Download/lohp-category-it-and-software-v2.jpg" alt="IT and Software"> <a href="https://www.someplace.com"><p>IT and Software</p></a>  </div> 	
+ <div class="column"> 	 <img src="file:///storage/emulated/11/Download/lohp-category-personal-development-v2.jpg" alt="Personal Development"><a href="https://www.someplace.com"><p>Personal Development</p></a>	 </div> 
+ 	 <div class="column"> 	 <img src="file:///storage/emulated/11/Download/lohp-category-business-v2.jpg" alt="Business"> <a href="https://www.someplace.com"><p>Business</p></a>	 </div>
+ 	 <div class="column"> 	 <img src="file:///storage/emulated/11/Download/lohp-category-photography-v2.jpg" alt="Photography"> <a href="https://www.someplace.com"><p>Photography</p></a>	 </div> 
+ 	 <div class="column"> 	 <img src="file:///storage/emulated/11/Download/lohp-category-music-v2.jpg" alt="Music"><a href="https://www.someplace.com"><p>Music</p></a>	 </div>
+ 	 </div>
+ 	 </div>
+ 	 <div>
+    <h2 style="block">Featured topics by catergory</h2>
+    
+    <label class="dev">Development</label>
+ 
+        <div> <a href="https://www.someplace.com"><p>Python</p></a><p>36,354,994 students</p></div>
+        <div> <a href="https://www.someplace.com"><p>Web Development</p></a><p>4,415,615 students</p></div>
+        <div> <a href="https://www.someplace.com"><p>Machine Learning</p></a><p>7,070,015 students</p></div>  
+    </label>
+     <label class="dev">Business</label>
+        <div> <a href="https://www.someplace.com"><p>Financial Analysis</p></a><p>1,195,282 students</p></div>
+        <div><a href="https://www.someplace.com"><p>SQL</p></a><p>5,977,561 students</p></div>
+        <div> <a href="https://www.someplace.com"><p>PMP</p></a><p>1,733,398 students</p></div>  
+    </label>
+    <label class="dev">IT and Software</label>
+        <div><a href="https://www.someplace.com"><p>AWS Certification</p></a><p>6,078,244 students</p></div>
+        <div><a href="https://www.someplace.com"> <p>Ethical Hacking</p></a><p>10,931,066 students</p></div>
+        <div> <a href="https://www.someplace.com"><p>Cyber Security</p></a><p>3,998,037 students</p></div>  
+    </label>
+   <label class="dev">Design</label>
+        <div>  <a href="https://www.someplace.com"><p>Photoshop</p></a><p>10,909,736 students</p></div>
+        <div> <a href="https://www.someplace.com"><p>Graphic Design</p></a><p>3,381,052 students</p></div>
+        <div><a href="https://www.someplace.com"> <p>Drawing</p></a><p>2,410,849 students</p></div>  
+         <a href="https://www.someplace.com"><button class="moretopics">Explore more topics</button></a>
+    </label>
+
+<div>
+<div class="instructora">
+    <img src=" file:///storage/emulated/11/Download/instructor-mobile-v3.jpg " alt="instructor">
+    <h2><p class="instructorb">Become an instructor</p></h2>
+    <p class="instructorb">Instructors from around the world teach millions of students on Udemy.<br>
+     We provide the tools and skills to teach what you love </p>
+       <a href="https://www.someplace.com"><button class="teaching">Start teaching today</button></a>
+     </div>
+      
+     <div>
+         <h2><p>Trusted by over 13,400 great teams</p></h2>
+
+<p>Leading companies use the same courses to help employees keep their skills fresh.</p>
+      <div class="columnb"> 	 <img src="file:///storage/emulated/11/Download/nasdaq-dark%20(1).svg" alt="nasdaq logo"> </div> 	
+ <div class="columnb"> 	 <img src="file:///storage/emulated/11/Download/volkswagen-dark.svg" alt="volkswagen logo"> </div> 	
+ <div class="columnb"> 	 <img src="file:///storage/emulated/11/Download/box-dark.svg" alt="box logo"> </div> 	
+ <div class="columnb"> 	 <img src="file:///storage/emulated/11/Download/netapp-dark.svg" alt="netapp logo"> </div> 	
+ <div class="columnb"> 	 <img src="file:///storage/emulated/11/Download/eventbrite-dark.svg" alt="eventbrite logo"> </div> 	
+ <div class="columnb"> 	 <img src="file:///storage/emulated/11/Download/tcs-dark.svg" alt="tcs logo"> </div> 	
+<div>
+<div class="columnc"> 	 <img src="file:///storage/emulated/11/Download/ub-mobile-v3.jpg" alt="business woman"> 
+
+<div class="columnd"> 	 <img src="file:///storage/emulated/11/Download/logo-ub.svg" alt="udemy business logo">
+<h2><p>Get unlimited access to 19,000+ of Udemy’s top courses for your team. Learn and improve skills across business, tech, design, and more.</p></h2>
+  <a href="https://www.someplace.com"><button class="udemybusiness">Get Udemy Business</button></a>
+</div>
+         </div>
+         <div>
+         <div class="columne"> 	 <img src="file:///storage/emulated/11/Download/transform-mobile-v3%20(4).jpg" alt="stairs logo">  
+      <h2> <p> Transform your life through education</p></h2>
+
+<p class="learners">Learners around the world are launching new careers, advancing in their fields, and enriching their lives.</p>
+ <a href="https://www.someplace.com"><button class="edu">Find out how</button></a>
+
+         </div>
+</div>
+<footer>
+<footer class="footer">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-5"> 
+                    <div class="row"> 
+                        <div class="col-6">                              
+                                 <p><a href="">Udemy Business</a></p> 
+                                 <p><a href="">Teach on us</a></p>
+                              <p><a href="">Get the app</a></p> 
+                              <p><a href="">About us</a></p> 
+                               <p><a href="">Contact us</a></p> 
+                               </div> 
+                              <div class="col-6">
+                                   <p><a href="">Careers</a></p> 
+                                    <p><a href="">Blog</a></p> 
+                                   <p><a href="">Help and Support</a></p>
+                                    <p><a href="">Affiliate </a></li>
+                                    <p><a href="">Investors</a></p>           
+                                     </div> 
+                                     <div class="col-6">
+                                   <p><a href="">Terms</a></p> 
+                                    <p><a href="">Privacy Policy</a></p> 
+                                   <p><a href="">Cookie settings</a></p>
+                                    <p><a href="">Sitemap </a></li>
+                                    <p><a href="">Accessibility Statement</a></p>
+                                     </div>
+                                     <span class="bottom-right">c 2023 Udemy, Inc.</span>
+</footer>
+</html>
